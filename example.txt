@@ -1,0 +1,186 @@
+(Venv) G:\G_AI\privateGPT_Chatbot>python privateGPT.py
+Found model file at  models/ggml-gpt4all-j-v1.3-groovy.bin
+gptj_model_load: loading model from 'models/ggml-gpt4all-j-v1.3-groovy.bin' - please wait ...
+gptj_model_load: n_vocab = 50400
+gptj_model_load: n_ctx   = 2048
+gptj_model_load: n_embd  = 4096
+gptj_model_load: n_head  = 16
+gptj_model_load: n_layer = 28
+gptj_model_load: n_rot   = 64
+gptj_model_load: f16     = 2
+gptj_model_load: ggml ctx size = 5401.45 MB
+gptj_model_load: kv self size  =  896.00 MB
+gptj_model_load: ................................... done
+gptj_model_load: model size =  3609.38 MB / num tensors = 285
+
+Enter a query: when python was developed? and when
+ Python was first released on February 20, 1991 by Guido van Rossum.
+
+> Question:
+when python was developed? and when
+
+> Answer (took 239.98 s.):
+ Python was first released on February 20, 1991 by Guido van Rossum.
+
+> source_documents\PythonInterviewQuestions.pdf:
+Introduction to Python:
+Python was developed by Guido van Rossum and was released first on February 20,
+1991. It is one of the most widely-used and loved programming languages and is
+interpreted in nature thereby providing flexibility of incorporating dynamic
+semantics. It is also a free and open-source language with very simple and clean
+syntax. This makes it easy for developers to learn python. Python also supports
+object-oriented programming and is most commonly used to perform general-
+
+> source_documents\PythonInterviewQuestions.pdf:
+Introduction to Python:
+Python was developed by Guido van Rossum and was released first on February 20,
+1991. It is one of the most widely-used and loved programming languages and is
+interpreted in nature thereby providing flexibility of incorporating dynamic
+semantics. It is also a free and open-source language with very simple and clean
+syntax. This makes it easy for developers to learn python. Python also supports
+object-oriented programming and is most commonly used to perform general-
+
+> source_documents\PythonInterviewQuestions.pdf:
+purpose programming. 
+Due to its simplistic nature and the ability to achieve multiple functionalities in fewer
+lines of code, python’s popularity is growing tremendously. Python is also used in
+Machine Learning, Artificial Intelligence, Web Development, Web Scraping, and
+various other domains due to its ability to support powerful computations using
+powerful libraries. Due to this, there is a huge demand for python developers in India
+
+> source_documents\PythonInterviewQuestions.pdf:
+purpose programming. 
+Due to its simplistic nature and the ability to achieve multiple functionalities in fewer
+lines of code, python’s popularity is growing tremendously. Python is also used in
+Machine Learning, Artificial Intelligence, Web Development, Web Scraping, and
+various other domains due to its ability to support powerful computations using
+powerful libraries. Due to this, there is a huge demand for python developers in India
+
+Enter a query: exit
+
+(Venv) G:\G_AI\privateGPT_Chatbot>
+
+
+(Venv) G:\G_AI\Private-Chatbot>python ingest.py     
+Creating new vectorstore
+Loading documents from source_documents
+Loading new documents: 100%|██████████████████████| 2/2 [00:11<00:00,  5.84s/it]
+Loaded 144 new documents from source_documents
+Split into 426 chunks of text (max. 500 tokens each)
+Creating embeddings. May take some minutes...
+Ingestion complete! You can now run privateGPT.py to query your documents
+
+(Venv) G:\G_AI\Private-Chatbot>python privateGPT.py            
+Found model file at  models/ggml-gpt4all-j-v1.3-groovy.bin
+gptj_model_load: loading model from 'models/ggml-gpt4all-j-v1.3-groovy.bin' - please wait ...
+gptj_model_load: n_vocab = 50400
+gptj_model_load: n_ctx   = 2048
+gptj_model_load: n_embd  = 4096
+gptj_model_load: n_head  = 16
+gptj_model_load: n_layer = 28
+gptj_model_load: n_rot   = 64
+gptj_model_load: f16     = 2 
+gptj_model_load: ggml ctx size = 5401.45 MB
+gptj_model_load: kv self size  =  896.00 MB
+gptj_model_load: ................................... done
+gptj_model_load: model size =  3609.38 MB / num tensors = 285
+
+Enter a query: What is Python? What are the benefits of using Python
+ Python is an open-source programming language that was created by Guido van Rossum and first released on October 31, 1991. It has become one of the most popular languages used to develop software applications due to its simplicity in syntax, readability, ease of use, flexibility, and support for various libraries such as NumPy, Pandas, Matplotlib, Scikit-learn, TensorFlow, Keras, etc., making it a versatile language. Python is also known for being easy to learn with an emphasis on code reusability and modularity which makes the development of software applications more efficient.
+
+> Question:
+What is Python? What are the benefits of using Python
+
+> Answer (took 404.22 s.):
+ Python is an open-source programming language that was created by Guido van Rossum and first released on October 31, 1991. It has become one of the most popular languages used to develop software applications due to its simplicity in syntax, readability, ease of use, flexibility, and support for various libraries such as NumPy, Pandas, Matplotlib, Scikit-learn, TensorFlow, Keras, etc., making it a versatile language. Python is also known for being easy to learn with an emphasis on code reusability and modularity which makes the development of software applications more efficient.
+
+> source_documents\PythonInterviewQuestions.pdf:
+Python Interview Questions
+Benefits of using Python:
+Python is a general-purpose programming language that has a simple, easy-to-
+learn syntax that emphasizes readability and therefore reduces the cost of
+program maintenance. Moreover, the language is capable of scripting, is
+completely open-source, and supports third-party packages encouraging
+modularity and code reuse.
+Its high-level data structures, combined with dynamic typing and dynamic
+
+> source_documents\PythonInterviewQuestions.pdf:
+Python Interview Questions
+Benefits of using Python:
+Python is a general-purpose programming language that has a simple, easy-to-
+learn syntax that emphasizes readability and therefore reduces the cost of
+program maintenance. Moreover, the language is capable of scripting, is
+completely open-source, and supports third-party packages encouraging
+modularity and code reuse.
+Its high-level data structures, combined with dynamic typing and dynamic
+
+> source_documents\PythonInterviewQuestions.pdf:
+purpose programming. 
+Due to its simplistic nature and the ability to achieve multiple functionalities in fewer
+lines of code, python’s popularity is growing tremendously. Python is also used in
+Machine Learning, Artificial Intelligence, Web Development, Web Scraping, and
+various other domains due to its ability to support powerful computations using
+powerful libraries. Due to this, there is a huge demand for python developers in India
+
+> source_documents\PythonInterviewQuestions.pdf:
+purpose programming. 
+Due to its simplistic nature and the ability to achieve multiple functionalities in fewer
+lines of code, python’s popularity is growing tremendously. Python is also used in
+Machine Learning, Artificial Intelligence, Web Development, Web Scraping, and
+various other domains due to its ability to support powerful computations using
+powerful libraries. Due to this, there is a huge demand for python developers in India
+
+Enter a query:
+
+Enter a query:
+
+Enter a query:
+
+Enter a query: What is PEP 8 and why is it important
+ PEP stands for Python Enhancement Proposal, which are official design documents that provide information to the Python community or describe new features for Python or its processes. The eighth proposal in this series (PEPS) was released on January 1st, 2021 by Guido van Rossum and is titled "Python 3 Compatibility Improvements". This document outlines changes made to Python's syntax between versions 2.7 and 3.0 that aim to make it easier to write code compatible with both older and newer versions of the language. The importance of this 
+proposal lies in its potential impact on maintaining compatibility across different platforms, as well as ensuring a consistent coding style for developers working within the Python community.
+
+> Question:
+What is PEP 8 and why is it important
+
+> Answer (took 600.96 s.):
+ PEP stands for Python Enhancement Proposal, which are official design documents that provide information to the Python community or describe new features for Python or its processes. The eighth proposal in this series (PEPS) was released on January 1st, 2021 by Guido van Rossum and is titled "Python 3 Compatibility Improvements". This document outlines changes made to Python's syntax between versions 2.7 and 3.0 that aim to make it easier to write code compatible with both older and newer versions of the language. The importance of this 
+proposal lies in its potential impact on maintaining compatibility across different platforms, as well as ensuring a consistent coding style for developers working within the Python community.
+
+> source_documents\PythonInterviewQuestions.pdf:
+Python Interview Questions
+3.   What is an Interpreted language?
+An Interpreted language executes its statements line by line. Languages such as
+Python, Javascript, R, PHP, and Ruby are prime examples of Interpreted languages.
+Programs written in an interpreted language runs directly from the source code, with
+no intermediary compilation step.
+4.   What is PEP 8 and why is it important?
+PEP stands for Python Enhancement Proposal. A PEP is an oﬀicial design document
+
+> source_documents\PythonInterviewQuestions.pdf:
+Python Interview Questions
+3.   What is an Interpreted language?
+An Interpreted language executes its statements line by line. Languages such as
+Python, Javascript, R, PHP, and Ruby are prime examples of Interpreted languages.
+Programs written in an interpreted language runs directly from the source code, with
+no intermediary compilation step.
+4.   What is PEP 8 and why is it important?
+PEP stands for Python Enhancement Proposal. A PEP is an oﬀicial design document
+
+> source_documents\PythonInterviewQuestions.pdf:
+providing information to the Python community, or describing a new feature for
+Python or its processes. PEP 8 is especially important since it documents the style
+guidelines for Python Code. Apparently contributing to the Python open-source
+community requires you to follow these style guidelines sincerely and strictly.
+5.   What is Scope in Python?
+Every object in Python functions within a scope. A scope is a block of code where an
+
+> source_documents\PythonInterviewQuestions.pdf:
+providing information to the Python community, or describing a new feature for
+Python or its processes. PEP 8 is especially important since it documents the style
+guidelines for Python Code. Apparently contributing to the Python open-source
+community requires you to follow these style guidelines sincerely and strictly.
+5.   What is Scope in Python?
+Every object in Python functions within a scope. A scope is a block of code where an
+
+Enter a query: exit

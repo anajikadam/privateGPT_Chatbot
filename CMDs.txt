@@ -1,0 +1,119 @@
+https://github.com/abidsaudagar/Private-Chatbot
+
+https://github.com/imartinez/privateGPT
+
+
+
+C:\Users\user\AppData\Local\Programs\Python\Python311\python.exe -m venv Venv
+C:\Users\user\AppData\Local\Programs\Python\Python311\python.exe
+
+(Venv) G:\G_AI\privateGPT_Chatbot>pip install -r requirements.txt
+
+python.exe -m pip install --upgrade pip
+
+python ingest.py
+
+python privateGPT.py
+
+
+
+
+Prompts:
+
+what the 3 R's look like in real life
+
+How to build strong habits
+
+Enter are the steps  of building a new habit
+
+
+(Venv) G:\G_AI\Private-Chatbot>python privateGPT.py
+Found model file at  models/ggml-gpt4all-j-v1.3-groovy.bin
+gptj_model_load: loading model from 'models/ggml-gpt4all-j-v1.3-groovy.bin' - please wait ...
+gptj_model_load: n_vocab = 50400
+gptj_model_load: n_ctx   = 2048
+gptj_model_load: n_embd  = 4096
+gptj_model_load: n_head  = 16
+gptj_model_load: n_layer = 28
+gptj_model_load: n_rot   = 64
+gptj_model_load: f16     = 2
+gptj_model_load: ggml ctx size = 5401.45 MB
+gptj_model_load: kv self size  =  896.00 MB
+gptj_model_load: ................................... done
+gptj_model_load: model size =  3609.38 MB / num tensors = 285
+
+Enter a query: How to build strong habits
+ Building strong habits requires a combination of strategies that work together. Here are some tips for building good habits:
+1. Set clear intentions - Make sure your goal is specific enough so it's easy to remember what you're working towards. 
+2. Break down the habit into smaller steps - This will make breaking bad habits easier and more manageable. For example, if you want to 
+quit smoking, break up a cigarette by taking small puffs instead of one big puff. 
+3. Use positive reinforcement - Reward yourself for making progress in your goal or reaching milestones along the way. It's important not to overdo it with rewards as they can become counterproductive and lead to bad habits being formed again later on.
+
+> Question:
+How to build strong habits
+
+> Answer (took 498.58 s.):
+ Building strong habits requires a combination of strategies that work together. Here are some tips for building good habits:
+1. Set clear intentions - Make sure your goal is specific enough so it's easy to remember what you're working towards.
+2. Break down the habit into smaller steps - This will make breaking bad habits easier and more manageable. For example, if you want to 
+quit smoking, break up a cigarette by taking small puffs instead of one big puff.
+3. Use positive reinforcement - Reward yourself for making progress in your goal or reaching milestones along the way. It's important not to overdo it with rewards as they can become counterproductive and lead to bad habits being formed again later on.
+
+> source_documents\james-clear-transform-your-habits-v3.pdf:
+how to master my habits just like you.
+
+But over time, I've discovered a helpful blend of academic research and real world
+experiences that have allowed me to make progress in many areas of life. In this
+guide, I want to share that progress with you so that you can avoid chasing another
+overnight success and actually stick to your goals for the long-term.
+
+Let's get started by talking about the science of sticking to good habits.
+
+
+
+JamesClear.com Page 7
+
+> source_documents\james-clear-transform-your-habits-v3.pdf:
+how to master my habits just like you.
+
+But over time, I've discovered a helpful blend of academic research and real world
+experiences that have allowed me to make progress in many areas of life. In this
+guide, I want to share that progress with you so that you can avoid chasing another
+overnight success and actually stick to your goals for the long-term.
+
+Let's get started by talking about the science of sticking to good habits.
+
+
+
+JamesClear.com Page 7
+
+> source_documents\james-clear-transform-your-habits-v3.pdf:
+change and identity-based habits – will help keep you on track.
+
+But those strategies aren't the only tools at your disposal. In this section, I'll share
+another way to stick to good habits that doesn't require incredible doses of
+willpower or remarkable motivation. I'll also share two examples of how I've used
+this strategy successfully in my own life.
+
+
+The Problem With How We Usually Set Goals
+
+If you’re anything like the typical human, then you have dreams and goals in your
+
+> source_documents\james-clear-transform-your-habits-v3.pdf:
+change and identity-based habits – will help keep you on track.
+
+But those strategies aren't the only tools at your disposal. In this section, I'll share
+another way to stick to good habits that doesn't require incredible doses of
+willpower or remarkable motivation. I'll also share two examples of how I've used
+this strategy successfully in my own life.
+
+
+The Problem With How We Usually Set Goals
+
+If you’re anything like the typical human, then you have dreams and goals in your
+
+Enter a query: exit  
+
+(Venv) G:\G_AI\Private-Chatbot>
+
